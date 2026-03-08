@@ -38,5 +38,22 @@ Demo: admin / admin123
 
 </div>
 
+<script>
+
+document.getElementById("loginBtn").addEventListener("click",function(){
+
+const user=document.getElementById("username").value
+const pass=document.getElementById("password").value
+
+if(user==="admin" && pass==="admin123"){
+window.location.href="main.html"
+}else{
+alert("Wrong Credentials")
+}
+
+})
+
+</script>
+
 </body>
 </html>
