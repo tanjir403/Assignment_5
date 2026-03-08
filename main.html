@@ -99,3 +99,52 @@ Showing issues across your project
 </div>
 
 </div>
+<!-- ISSUE GRID -->
+
+<div
+id="issuesContainer"
+class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+
+</div>
+
+
+</div>
+
+
+<!-- MODAL -->
+
+<div
+id="issueModal"
+class="fixed inset-0 bg-black bg-opacity-40 hidden items-center justify-center z-50 px-4">
+
+<div class="bg-white w-full max-w-lg p-6 rounded-lg shadow-lg relative">
+
+<button
+onclick="closeModal()"
+class="absolute right-3 top-2 text-xl text-gray-500">
+×
+</button>
+
+<h2 id="modalTitle" class="text-lg font-semibold mb-2"></h2>
+
+<p id="modalDesc" class="text-gray-600 text-sm mb-4"></p>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+
+<p><b>Status:</b> <span id="modalStatus"></span></p>
+
+<p><b>Author:</b> <span id="modalAuthor"></span></p>
+
+<p><b>Priority:</b> <span id="modalPriority"></span></p>
+
+<p><b>Label:</b> <span id="modalLabel"></span></p>
+
+<p><b>Created:</b> <span id="modalDate"></span></p>
+
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
