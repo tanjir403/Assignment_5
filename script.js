@@ -201,4 +201,4 @@ const modal = document.getElementById("issueModal")
 modal.classList.remove("flex")
 modal.classList.add("hidden")
 
-}
+}         
